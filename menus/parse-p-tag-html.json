@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle parse-p-tag-html",
+        "command": "parse-p-tag-html:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "parse-p-tag-html",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "parse-p-tag-html:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
